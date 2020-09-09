@@ -1,6 +1,6 @@
 #! /bin/bash
-ping -c 4 8.8.8.8 > /dev/null
+ping -c 5 8.8.8.8 > /dev/null
 if [ $?==0 ]; then
-	echo "You Have Internet!"
-else echo "No Internet!"
+	echo "Yup"
+else echo "Nope"
 fi
